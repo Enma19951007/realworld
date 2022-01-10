@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/home",
+        "_name": "_1fc14b6e"
+      },
+      {
+        "path": "login",
+        "name": "login",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/login",
+        "_name": "_1404373f"
+      },
+      {
+        "path": "register",
+        "name": "register",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/login",
+        "_name": "_1404373f"
+      },
+      {
+        "path": "profile/:username",
+        "name": "profile",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/profile",
+        "_name": "_060b9802"
+      },
+      {
+        "path": "settings",
+        "name": "settings",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/settings",
+        "_name": "_338c5c8d"
+      },
+      {
+        "path": "editor",
+        "name": "editor",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/editor",
+        "_name": "_5ff6d457"
+      },
+      {
+        "path": "article/:slug",
+        "name": "article",
+        "component": "/Users/crow/Desktop/realworld-nuxtjs/pages/article",
+        "_name": "_38771168"
+      }
+    ],
+    "_name": "_6bc5ae14"
+  }
+]
