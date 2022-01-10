@@ -90,6 +90,7 @@ export default {
         this.$store.commit('setUser', res.data.user)
         Cookie && Cookie.set('user', JSON.stringify(res.data.user))
         this.$router.push({ name: "home" });
+        window.location.reload()
       }
       if (error) {
         this.errors = error.data.errors;

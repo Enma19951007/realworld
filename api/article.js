@@ -62,3 +62,28 @@ export const getComments = (slug) => {
     })
   );
 };
+
+// 获取关注的文章列表
+export const sendArticle = (data) => {
+  return catchError(
+    request({
+      method: "POST",
+      url: `/api/articles`,
+      data
+    })
+  );
+};
+// 获取关注的文章列表
+export const updateArticle = (data,slug) => {
+  return catchError(
+    request({
+      method: "PUT",
+      url: `/api/articles/${slug}`,
+      data
+    })
+  );
+};
+
+
+
+ 

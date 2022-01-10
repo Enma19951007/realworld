@@ -22,3 +22,22 @@ export const register = (data) => {
     })
   );
 };
+
+// 获取用户信息
+export const getUser = () => {
+  return catchError(
+    request({
+      method: "GET",
+      url: "/api/user"
+    })
+  )
+}
+export const updateUser = (data) => {
+  return catchError(
+    request({
+      method: "PUT",
+      url: "/api/user",
+      data
+    })
+  )
+}
